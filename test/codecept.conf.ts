@@ -20,7 +20,7 @@ export const config: CodeceptJS.MainConfig = {
     MailinatorHelper: {
       require: '../dist/MailinatorHelper.js',
       token: process.env['MAILINATOR_TOKEN'],
-      domain: process.env['MAILINATOR_DOMAIN'] //'team625740.testinator.com'
+      domain: process.env['MAILINATOR_DOMAIN']
     },
     ExpectHelper: {
       require: 'codeceptjs-expect'
