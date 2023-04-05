@@ -12,7 +12,7 @@ export const config: CodeceptJS.MainConfig = {
   helpers: {
     Playwright: {
       url: 'http://localhost',
-      show: true,
+      show: false,
       browser: 'chromium',
       waitForTimeout: 60_000,
       userAgent: `Chrome-${Date.now().toString()}`
