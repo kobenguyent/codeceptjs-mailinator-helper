@@ -1,0 +1,5 @@
+package-lock.json
+dist
+test/node_modules
+node_modules
+test/output

@@ -1,0 +1,51 @@
+{
+  "name": "codeceptjs-mailinator-helper",
+  "version": "1.0.0",
+  "description": "Mailinator Helper for Codeceptjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "rome check src",
+    "lint:fix": "rome check src --apply-suggested",
+    "prepare": "husky install",
+    "code:format": "rome format src --write",
+    "tsc": "tsc -d"
+  },
+  "keywords": [
+    "codeceptjs",
+    "MailinatorHelper"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@codeceptjs/helper": "^2.0.1",
+    "codeceptjs": "^3.4.1",
+    "mailinator-client": "^1.0.3",
+    "playwright": "^1.32.2"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "rome": "^11.0.0",
+    "typescript": "^4.9.5"
+  },
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kobenguyent/codeceptjs-mailinator-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kobenguyent/codeceptjs-mailinator-helper/issues"
+  },
+  "homepage": "https://github.com/kobenguyent/codeceptjs-mailinator-helper#readme",
+  "author": "kobenguyent",
+  "lint-staged": {
+    "src": "rome format src --write"
+  }
+}
