@@ -1,8 +1,8 @@
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/peternguyew)
 
-# codeceptjs-MailinatorHelper-helper
+# codeceptjs-Mailinator-helper
 
-CodeceptJS MailinatorHelper helper.
+CodeceptJS Mailinator helper.
 
 NPM package: <https://www.npmjs.com/package/codeceptjs-mailinator-helper>
 
@@ -16,7 +16,7 @@ This helper should be added in your codeceptjs config file: `codecept.conf.*`
 
 Example:
 
-```
+```javascript
 {
 ...
    helpers: {
@@ -34,7 +34,7 @@ Example:
 ## Usage
 - If there is no auto complete for `I` actor, try running `npx codeceptjs def`
 
-```
+```javascript
 Feature('Newsletter');
 
 Scenario('Subscription Email',  async ({ I }) => {
@@ -52,7 +52,7 @@ Scenario('Subscription Email',  async ({ I }) => {
 
 Output
 
-```
+```javascript
 Newsletter --
     [1]  Starting recording promises
     Timeouts: 
